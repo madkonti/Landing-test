@@ -15,7 +15,7 @@
     background: tomato;
   }
   
-  .footer {
+  footer {
     background: lightgreen;
   }
   
@@ -36,7 +36,7 @@
     .first    { flex: 3 0px; }
     .first    { order: 2; }
     .second { order: 3; }
-    .footer  { order: 4; }
+    footer  { order: 4; }
   }
   
   body {
