@@ -24,6 +24,17 @@ body {
 }
 
 
+.header {
+  background: gray;
+  min-height: 100px;
+}
+
+
+footer {
+  background: gray;
+  min-height: 100px;
+}
+
 
 .container {
   width: 100%;
@@ -40,11 +51,9 @@ body {
 }
 
 .col {
-  position: relative;
   width: 100%;
   min-height: 200px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 5px;
 }
 
 
@@ -54,22 +63,14 @@ body {
         /* 1/2 от ширины контейнера */
         .box-1 {
             flex: 0 0 50%;
-            max-width: 50%;
         }
 
         /* 1/2 от ширины контейнера */
         .box-2 {
-
             flex: 0 0 50%;
-            max-width: 50%;
         }
     }
 
-
-  .header {
-      background: gray;
-      min-height: 100px;
-    }
 
 
   .box-1 {
@@ -88,8 +89,26 @@ body {
     background:rgb(83, 63, 142);
   }
 
-
-  footer {
-    background: gray;
-    min-height: 100px;
+  .box-5 {
+    background:rgb(1, 39, 3);
   }
+
+  .box-6 {
+    background:rgb(31, 17, 103);
+  }
+
+
+       /* ширина блоков 5 и 6 для больших экранов */
+       @media (min-width: 800px) {
+
+        /* 1/2 от ширины контейнера */
+        .box-5 {
+            flex: 0 0 50%;
+        }
+
+        /* 1/2 от ширины контейнера */
+        .box-6 {
+            flex: 0 0 50%;
+        }
+    }
+
