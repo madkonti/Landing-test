@@ -53,18 +53,6 @@ body {
 }
 
 
-
-
-       /* ширина блоков first и second по умолчанию */
-
-.first,
-.second {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-
        /* ширина блоков first и second для больших экранов */
        @media (min-width: 800px) {
 
