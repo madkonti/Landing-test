@@ -9,6 +9,11 @@
 .header {
   background: gray;
   height: 4rem;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 
