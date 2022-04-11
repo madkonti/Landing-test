@@ -23,7 +23,8 @@ body {
 
 .header {
   background: gray;
-  min-height: 100px;
+
+  height: 4rem;
 }
 
 
@@ -43,14 +44,14 @@ footer {
 .row {
   display: flex;
   flex-wrap: wrap;
-  min-width: 300px;
 }
 
 .col {
   width: 100%;
-  min-height: 200px;
-  padding: 5px;
+  padding: 1%;
+  height: 30rem;
 }
+
 
 
        /* ширина блоков first и second для больших экранов */
@@ -108,3 +109,17 @@ footer {
         }
     }
 
+.col.box-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+    .box-2-element-1, .box-2-element-2, .box-2-element-3 {
+      height: 100px;
+      width: 100px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: red;
+    }
