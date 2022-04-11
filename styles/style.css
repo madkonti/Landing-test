@@ -11,7 +11,6 @@
   height: 4rem;
   width: 100%;
   position: fixed;
-  color: aliceblue;
 }
 
 
@@ -69,6 +68,7 @@ footer {
 
   .box-1 {
     background-color: #4c84ff;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
     display: flex;
     flex-flow: column;
     align-items: flex-end;
@@ -106,11 +106,12 @@ footer {
 
 
   .box-2 {
-    background: #45454f;
+    background: linear-gradient(0deg, rgba(69, 69, 79, 0.7), rgba(69, 69, 79, 0.7)), url('/img/working.avif');
+    background-size: cover;
   }
 
   .box-3 {
-    background: rgb(36, 72, 36);
+    background-color: #7789ec;
   }
 
 
