@@ -11,6 +11,7 @@
   height: 4rem;
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 
@@ -51,7 +52,8 @@ footer {
 .row {
   display: flex;
   width: 100%;
-
+  position: relative;
+  justify-content: center;
 }
 
 .col.box-1, .col.box-2 {
@@ -128,8 +130,8 @@ footer {
 
 
 .dot {
-  height: 0.6rem;
-  width: 0.6rem;
+  height: 0.8rem;
+  width: 0.8rem;
   background-color: rgb(237, 237, 237);
   border-radius: 50%;
   display: inline-block;
@@ -138,13 +140,26 @@ footer {
 
 
 .dot:hover {
-  background-color: #bd8c32;
+  background-color: #5d6577;
   transition: 0.3s;
 }
 
 .navitem {
-  height: 100px;
-  width: 100px;
-  background-color: red;
+  background: url('/img/down-arrow.svg');
+  height: 3rem;
+  width: 3rem;
+  background-color: #5d6577;
+  position: absolute;
+  margin-bottom: 2rem;
+  bottom: 0;
+  transition:all 0.3s;
+
+
+}
+
+.navitem:hover {
   
+  transform: scale(1.1);
+  background-color: #6083cc;
+
 }
