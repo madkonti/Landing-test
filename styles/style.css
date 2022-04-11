@@ -22,19 +22,19 @@
   margin-left: 50%;
   margin-top: 1rem;
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 0.85rem;
 }
 
 .header ul li {
-  padding: 1.5rem 1.5rem;
-  box-shadow: inset 0 0 0 0 #4c84ff;
+  padding: 0.6rem 0.6rem;
+  box-shadow: inset 0 0 0 1 #5875b4;
   color: #ffffff;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  transition: box-shadow .75s ease-in-out;
 }
 
 .header ul li:hover {
 
-  box-shadow: inset 100px 0 0 0 #4c84ff;
+  box-shadow: inset 100px 0 0 0 #6083cc;
   color: white;
 }
 
@@ -47,9 +47,11 @@ footer {
 }
 
 
+
 .row {
   display: flex;
   width: 100%;
+
 }
 
 .col.box-1, .col.box-2 {
@@ -67,7 +69,7 @@ footer {
 
 
   .box-1 {
-    background-color: #4c84ff;
+    background-color: #6083cc;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
     display: flex;
     flex-flow: column;
@@ -106,12 +108,12 @@ footer {
 
 
   .box-2 {
-    background: linear-gradient(0deg, rgba(69, 69, 79, 0.7), rgba(69, 69, 79, 0.7)), url('/img/working.avif');
+    background: linear-gradient(0deg, rgba(69, 69, 79, 0.9), rgba(69, 69, 79, 0.7)), url('/img/working.jpeg');
     background-size: cover;
   }
 
   .box-3 {
-    background-color: #7789ec;
+    background-color: #010207;
   }
 
 
@@ -120,7 +122,29 @@ footer {
 .col.box-2 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: flex-start;
 }
 
+
+.dot {
+  height: 0.6rem;
+  width: 0.6rem;
+  background-color: rgb(237, 237, 237);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.2rem 0;
+}
+
+
+.dot:hover {
+  background-color: #bd8c32;
+  transition: 0.3s;
+}
+
+.navitem {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  
+}
