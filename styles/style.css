@@ -7,15 +7,23 @@
 
 
 .header {
-  background: gray;
+
   height: 4rem;
   width: 100%;
-  position: absolute;
+  position: fixed;
+}
+
+
+.header ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-right: 1rem;
 }
 
+.header ul li {
+  padding: 1% 1%;
+}
 
 footer {
   background: gray;
