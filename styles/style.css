@@ -11,19 +11,36 @@
   height: 4rem;
   width: 100%;
   position: fixed;
+  color: aliceblue;
 }
 
 
 .header ul {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 1rem;
+  justify-content: center;
+  margin-left: 50%;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 0.7rem;
 }
 
 .header ul li {
-  padding: 1% 1%;
+  padding: 1.5rem 1.5rem;
+  box-shadow: inset 0 0 0 0 #4c84ff;
+  color: #ffffff;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
+
+.header ul li:hover {
+
+  box-shadow: inset 100px 0 0 0 #4c84ff;
+  color: white;
+}
+
+
+
 
 footer {
   background: gray;
@@ -106,10 +123,3 @@ footer {
   align-items: flex-end;
 }
 
-    .box-2-element-1, .box-2-element-2, .box-2-element-3 {
-      height: 100px;
-      width: 100px;
-      border-style: solid;
-      border-width: 1px;
-      border-color: red;
-    }
