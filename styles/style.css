@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&display=swap');
+
+* {
+  font-family: 'Dosis', sans-serif;
+
+}
+
+
 .header {
   background: gray;
   height: 4rem;
@@ -10,11 +18,6 @@ footer {
 }
 
 
-.container {
-  margin: 0 1%;
-
-}
-
 .row {
   display: flex;
   width: 100%;
@@ -23,6 +26,7 @@ footer {
 .col.box-1, .col.box-2 {
   width: 50%;
   padding: 0 1%;
+  height: 50rem;
 }
 
 .col {
@@ -34,43 +38,53 @@ footer {
 
 
   .box-1 {
-    background: rgb(69, 92, 102);
+    background-color: #4c84ff;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: center;
+    color: aliceblue;
   }
   
+  .text-box {
+    width: 60%;
+  }
+
+
+.box-1 .first {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.box-1 .dash {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.box-1 .second {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.box-1 .third {
+  font-size: 1rem;
+  line-height: 3;
+}
+
+
+
+
+
   .box-2 {
-    background: rgb(80, 49, 65);
+    background: #45454f;
   }
 
   .box-3 {
     background: rgb(36, 72, 36);
   }
 
-  .box-4 {
-    background:rgb(83, 63, 142);
-  }
-
-  .box-5 {
-    background:rgb(1, 39, 3);
-  }
-
-  .box-6 {
-    background:rgb(31, 17, 103);
-  }
 
 
-       /* ширина блоков 5 и 6 для больших экранов */
-       @media (min-width: 800px) {
-
-        /* 1/2 от ширины контейнера */
-        .box-5 {
-            flex: 0 0 50%;
-        }
-
-        /* 1/2 от ширины контейнера */
-        .box-6 {
-            flex: 0 0 50%;
-        }
-    }
 
 .col.box-2 {
   display: flex;
