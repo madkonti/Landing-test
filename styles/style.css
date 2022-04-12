@@ -59,12 +59,11 @@ footer {
 .col.box-1, .col.box-2 {
   width: 50%;
   padding: 0 1%;
-  height: 50rem;
+  height: auto;
 }
 
 .col {
   width: 100%;
-  height: 30rem;
 }
 
 
@@ -82,6 +81,8 @@ footer {
   
   .text-box {
     width: 60%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
   }
 
 
@@ -193,7 +194,7 @@ justify-content: center;
 flex-direction: row;
 flex-wrap: wrap;
 width: 100%;
-height: 10rem;
+height: auto;
 background-color: whitesmoke;
 }
 
