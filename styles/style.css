@@ -148,8 +148,7 @@ footer {
   width: 3rem;
   background-color: #5d6577;
   position: absolute;
-  margin-bottom: 2rem;
-  bottom: 0;
+  bottom: 2rem;
   transition:all 0.3s;
 
 
@@ -222,6 +221,6 @@ background-color: whitesmoke;
 }
 
 .box-3 .second:hover {
-  color:rgb(213, 191, 26);
+  color:#6083cc;
   transform: scale(1.1);
 }
