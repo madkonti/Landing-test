@@ -12,8 +12,18 @@
   width: 100%;
   position: fixed;
   z-index: 1;
+  display: flex;
 }
 
+.header a {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.6rem 0.6rem;
+  box-shadow: inset 0 0 0 1 #5875b4;
+  color: #ffffff;
+  transition: box-shadow .75s ease-in-out;
+}
 
 .header ul {
   display: flex;
@@ -22,9 +32,12 @@
   justify-content: center;
   margin-left: 50%;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   font-size: 0.85rem;
 }
+
+
 
 .header ul li {
   padding: 0.6rem 0.6rem;
@@ -55,188 +68,3 @@ footer {
   position: relative;
   justify-content: center;
 }
-
-.col.box-1, .col.box-2 {
-  height: auto;
-}
-
-
-
-.box-1 {
-  flex: 1 1 auto;
-  background: #cccccc;  
-}
-.box-2 {
-  flex: 2 1 auto;
-}
-@media (max-width: 900px) {
-  .row {
-    flex-direction: column;
-  }
-
-  .box-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-  }
-}
-
-
-  .box-1 {
-    background-color: #6083cc;
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-    display: flex;
-    flex-flow: column;
-    align-items: flex-end;
-    justify-content: center;
-    color: aliceblue;
-  }
-  
-  .text-box {
-    width: 60%;
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-  }
-
-
-.box-1 .first {
-    font-size: 6rem;
-    text-transform: uppercase;
-}
-
-.box-1 .dash {
-  font-size: 3rem;
-  text-transform: uppercase;
-}
-
-.box-1 .second {
-  font-size: 3rem;
-  text-transform: uppercase;
-}
-
-.box-1 .third {
-  font-size: 1rem;
-  line-height: 3;
-}
-
-
-
-
-
-  .box-2 {
-    background: linear-gradient(0deg, rgba(69, 69, 79, 0.9), rgba(69, 69, 79, 0.7)), url('/img/working.jpeg');
-    background-size: cover;
-  }
-
-.col.box-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  min-width: 50%;
-}
-
-
-.dot {
-  height: 0.8rem;
-  width: 0.8rem;
-  background-color: rgb(237, 237, 237);
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0.3rem 0.3rem;
-}
-
-
-.dot:hover {
-  background-color: #5d6577;
-  transition: 0.3s;
-}
-
-.navitem {
-  background: url('/img/down-arrow.svg');
-  height: 3rem;
-  width: 3rem;
-  background-color: #5d6577;
-  position: absolute;
-  bottom: 2rem;
-  transition:all 0.3s;
-
-
-}
-
-.navitem:hover {
-  
-  transform: scale(1.1);
-  background-color: #6083cc;
-
-}
-
-
-.logo-text {
-  color: white;
-}
-
-.logo {
-  height: 6rem;
-  width: 6rem;
-  background-color: rgb(219, 219, 219);
-  margin: 2% 2%;
-  min-width: 100px;
-  transition:all 0.3s;
-  
-  
-}
-
-.logo:hover {
-
-  transform: scale(1.15);
-  border-radius: 5%;
-  background-color: #797979;
-
-}
-
-
-
-.box-3 {
-display: flex;
-justify-content: center;
-flex-direction: row;
-flex-wrap: wrap;
-width: 100%;
-height: auto;
-background-color: whitesmoke;
-}
-
-.box-3 div {
-  margin-top: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  position: relative;
-}
-
-.box-3 .first {
-  color: black;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1.5rem;
-}
-
-.box-3 .second {
-  color: rgb(249, 137, 0);
-  font-weight: 600;
-  font-size: 1rem;
-  transition: all 0.3s;
-  float: right;
-}
-
-.box-3 .second:hover {
-  color:#6083cc;
-  transform: scale(1.1);
-}
-
-
-
-
-
